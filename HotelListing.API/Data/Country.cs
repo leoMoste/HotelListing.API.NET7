@@ -7,7 +7,7 @@
         public string? ShortName { get; set; }
 
         // Navigation Property: This indicates that one country can have many hotels
-        public virtual IList<Hotel> Hotels { get; set; }  // Navigation property
+        public virtual IList<Hotel>? Hotels { get; set; }  // Navigation property
 
 
     }
